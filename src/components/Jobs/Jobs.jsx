@@ -10,8 +10,9 @@ const Jobs = () => {
     },[])
     return (
         <div>
-            <h1>Featured Jobs</h1>
-            <div>
+            <h1 className='font-bold text-5xl text-center m-5 mt-10'>Featured Jobs</h1>
+            <p className='text-center '>Explore thousands of job oppurtunity with all the information you need. Its your future</p>
+            <div className='grid grid-cols-1 md:grid-cols-2 m-5'>
                 {
                     jobs.map(job => <Job
                         key={job.id}

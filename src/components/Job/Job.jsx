@@ -4,8 +4,8 @@ import { CurrencyDollarIcon, MapPinIcon } from '@heroicons/react/24/solid'
 const Job = ({ job }) => {
     const { id, title, name, logo, Contact_information, location, salary } = job;
     return (
-        <div>
-            <img src={logo} alt="" />
+        <div className='m-5 border-2 rounded-md p-10'>
+            <img className='w-52 '  src={logo} alt="" />
             <div>
                 {title}
                 {name}

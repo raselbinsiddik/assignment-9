@@ -13,7 +13,7 @@ const Category = () => {
         <div className=' mt-5'>
             <div className='text-center'>
                 <h1 className='font-bold text-4xl mb-5'>Job Category List</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit nemo earum error tempore illo nam suscipit laborum </p>
+                <p>Explore thousands of job oppurtunity with all the information you need. Its your future </p>
             </div>
             <div className='grid grid-cols-2 md:grid-cols-4 mt-5'>
                 {
