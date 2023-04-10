@@ -6,13 +6,21 @@
         "job_title":"Technical Database Engineer",
         "remote":"",
         "location":"Gulshan, Dhaka-1212, Bangladesh",
-        "office":"10am-5pm (fulltime)",
+        "office":["fulltime:10am-5pm","partime:2pm-5pm"],
         "salary":"50000tk",
-        "job-description":"",
-        "Job_Responsibility":"",
-        "Educational_Requirements":"",
-        "Experiences":"",
-        "Contact_information":"01879839555, google@gmail.com"
+        "job_description":"Google is seeking a talented and experienced Software Engineer to join our team. In this role, you will be responsible for designing, developing, and maintaining software applications and systems for a variety of projects. You will collaborate with other engineers, product managers, and designers to create high-quality software solutions that meet the needs of our users.",
+        "Job_Responsibility":[
+        "Design, develop, and maintain software applications and systems",
+        "Collaborate with other engineers, product managers, and designers to create high-quality software solutions",
+        "Write clean, efficient, and maintainable code",
+        "Conduct code reviews and provide feedback to other engineers",
+        "Participate in all aspects of the software development lifecycle, including requirements gathering, design, implementation, testing, and deployment",
+        "Stay up-to-date with new technologies and best practices in software engineering",
+        "Debug and troubleshoot software issues"
+          ],
+        "Educational_Requirements":"Bachelor's degree in Computer Science or related field",
+        "Experiences":"2-3Years in this field",
+        "Contact_information":["0187983955","google@gmail.com"]
 
     },
     {
@@ -20,15 +28,21 @@
         "logo":"https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png",
         "company_name":"Netliflix",
         "job_title":"Senior Product designer",
-        "remote":"",
+        "remote":"home",
         "location":"Gulshan, Dhaka-1212, Bangladesh",
-        "office":"10am-5pm (fulltime)",
+        "office":["fulltime:10am-5pm","partime:2pm-5pm"],
         "salary":"100k-150k",
-        "job_description":"",
-        "Job_Responsibility":"",
-        "Educational_Requirements":"",
-        "Experiences":"",
-        "Contact_information":"01879839555, neliflix@gmail.com"
+        "job_description":"Netflix is seeking a talented and experienced Software Engineer to join our team. In this role, you will be responsible for designing, developing, and maintaining software applications and systems that power our world-class streaming service. You will work closely with other engineers, product managers, and designers to build scalable, reliable, and high-performance software solutions that enable us to deliver the best possible experience to our members.",
+        "Job_Responsibility":["Design, develop, and maintain software applications and systems that power the Netflix streaming service",
+        "Collaborate with other engineers, product managers, and designers to build scalable, reliable, and high-performance software solutions",
+        "Write clean, efficient, and maintainable code",
+        "Conduct code reviews and provide feedback to other engineers",
+        "Participate in all aspects of the software development lifecycle, including requirements gathering, design, implementation, testing, and deployment",
+        "Stay up-to-date with new technologies and best practices in software engineering",
+         "Debug and troubleshoot software issues"],
+        "Educational_Requirements":"Bachelor's degree in Computer Science or related field",
+        "Experiences":"3+ years of experience in software engineering",
+        "Contact_information":["01879839555", "netliflix@yhoo.com"]
 
     },
     {
@@ -38,13 +52,21 @@
         "job_title":"Softowre Engineer",
         "remote":"",
         "location":"Gulshan, Dhaka-1212, Bangladesh",
-        "office":"10am-5pm (fulltime)",
+        "office":["fulltime:10am-5pm","partime:2pm-5pm"],
         "salary":"100k-150k",
-        "job_description":"",
-        "Job_Responsibility":"",
-        "Educational_Requirements":"",
-        "Experiences":"",
-        "Contact_information":"01879839555, tesla@gmail.com"
+        "job_description": "Tesla is seeking a highly motivated and experienced Software Engineer to join our team. In this role, you will design and develop software solutions that power our innovative electric vehicles, energy products, and autonomous driving systems. You will work closely with cross-functional teams, including hardware engineers, designers, and product managers, to create world-class software solutions that drive the future of transportation.",
+        "Job_Responsibility": [
+"Design and develop software solutions for Tesla's electric vehicles, energy products, and autonomous driving systems",
+"Collaborate with cross-functional teams, including hardware engineers, designers, and product managers, to create world-class software solutions",
+"Write clean, efficient, and maintainable code",
+"Conduct code reviews and provide feedback to other engineers",
+"Participate in all aspects of the software development lifecycle, including requirements gathering, design, implementation, testing, and deployment",
+"Stay up-to-date with new technologies and best practices in software engineering",
+"Debug and troubleshoot software issues"
+],
+        "Educational_Requirements":"Bachelor's degree in Computer Science or related field",
+        "Experiences":"3+ years of experience in software engineering",
+        "Contact_information":["01879839555", "tesla@gmail.com"]
 
     },
     {
@@ -56,11 +78,19 @@
         "location":"Gulshan, Dhaka-1212, Bangladesh",
         "office":"10am-5pm (fulltime)",
         "salary":"100k-150k",
-        "job_description":"",
-        "Job_Responsibility":"",
-        "Educational_Requirements":"",
-        "Experiences":"",
-        "Contact_information":"01879839555, google@gmail.com"
+        "job_description":"Google is seeking a talented and experienced Software Engineer to join our team. In this role, you will be responsible for designing, developing, and maintaining software applications and systems for a variety of projects. You will collaborate with other engineers, product managers, and designers to create high-quality software solutions that meet the needs of our users.",
+        "Job_Responsibility": [
+        "Design, develop and maintain software applications and systems",
+        "Collaborate with other engineers. product managers and designers to create high-quality software solutions",
+        "Write clean, efficient, and maintainable code",
+        "Conduct code reviews and provide feedback to other engineers",
+        "Participate in all aspects of the software development lifecycle, including requirements gathering", "design, implementation, testing, and deployment",
+        "Stay up-to-date with new technologies and best practices in software engineering",
+        "Debug and troubleshoot software issues"
+          ],
+        "Educational_Requirements":"Bachelor's degree in Computer Science or related field",
+        "Experiences":"2-3Years in this field",
+        "Contact_information":["0187983955","google@gmail.com"]
 
     },
     {

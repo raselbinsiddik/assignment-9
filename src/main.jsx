@@ -10,13 +10,13 @@ import Details from './components/Details/Details';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: '/',
     element: <App></App>,
     children: [
       {
-        path: "details",
+        path: 'details:detailsId',
         element: <Details></Details>,
-        loader: () => fetch("./jobsData.json")
+        loader: ({params}) => fetch(`jobsData.json1/${params.datailsId}`)
       }
     ]
   },
