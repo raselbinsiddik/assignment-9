@@ -9,9 +9,7 @@ const App = () => {
   return (
     <div>
       <Header></Header>
-      <Bennar></Bennar>
-      <Category></Category>
-     
+    
       <Outlet></Outlet>
     </div>
   );

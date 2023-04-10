@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import SetCategory from '../SetCategory/SetCategory';
-import { useLoaderData } from 'react-router-dom';
+
 
 const Category = () => {
     const [categorys, setCategorys] = useState([]);
 
     useEffect(() => {
-        fetch('./fakeData.json')
+        fetch('/fakeData.json')
             .then(res => res.json())
             .then(data => setCategorys(data));
     },[])

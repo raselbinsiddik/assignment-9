@@ -1,16 +1,46 @@
-import React from 'react';
-import { useLoaderData } from 'react-router-dom';
-import Detail from '../Detail/Detail';
+import React, { useEffect, useState } from 'react';
+import { useLoaderData, useParams} from 'react-router-dom';
+import { CalculatorIcon, CurrencyDollarIcon,   InboxStackIcon, MapPinIcon, PhoneIcon, } from '@heroicons/react/24/solid';
+
 
 const Details = () => {
     const details = useLoaderData();
-    console.log(details);
+    const { dId } = useParams();
+   
+
+    const [jobDetails, setJobDetails] = useState({})
+
+    useEffect(() => {
+        const findJob = details.find(d => d.id == dId)
+        setJobDetails(findJob)
+    }, [])
+    console.log(jobDetails);
+    const { Contact_email,contact_phone, Educational_Requirements, Experiences, Job_Responsibility, job_description, job_title, salary, location } = jobDetails;
     return (
-        <div>
-            {
-                details.map(detail => <Detail key={detail.id}
-                    detail={detail}></Detail>)
-            }
+        <div className='grid grid-cols-1 md:grid-cols-2 m-16 text-xl'>
+            <div className='m-5 '>
+                <p className='p-2'><span className='font-bold'>Job Description:</span>  {job_description}</p>
+                <p className='p-2'><span className='font-bold'>Job Responsibility:</span> {Job_Responsibility}</p>
+                <p className='p-2'><span className='font-bold'>Educational Requirements:</span> {Educational_Requirements}</p>
+                <p className='p-2'><span className='font-bold'>Experiences:</span> {Experiences}</p>
+            </div>
+            <div className='mt-5'>
+                <div className='m-5 bg-indigo-50 p-4 rounded '>
+                    <h1 className='font-bold text-2xl mb-6'>Job Details</h1>
+                    <hr className='border-2' />
+                    <p className='mt-8 flex mb-3'><CurrencyDollarIcon className='h-6 w-6 text-blue-300' />
+                        <span className='font-bold flex '> Salary:</span>
+                        {salary} (per month)</p>
+                    <p className='flex'><CalculatorIcon className='h-6 w-6 text-blue-300' /><span className='font-bold'>Job title:</span> {job_title}</p>
+                    <h1 className='font-bold mt-8 mb-3'>Contact Information</h1>
+                    <hr className='border' />
+                    <p className='flex mt-8'><PhoneIcon className='h-6 w-6 text-blue-300' /><span className='font-bold'>Phone: </span>{contact_phone }</p>
+                    <p className='flex mt-3'><InboxStackIcon className='h-6 w-6 text-blue-300' /><span className='font-bold'>Email: </span>{Contact_email }</p>
+                    <p className='flex mt-3 mb-8'><MapPinIcon className='h-6 w-6 text-blue-300' /><span className='font-bold'>Address: </span>{location }</p>
+                    
+                </div>
+                <button className='bg-indigo-500 text-2xl text-white p-4  w-full rounded-lg  font-bold'>Apply Now</button>
+            </div>
         </div>
     );
 };

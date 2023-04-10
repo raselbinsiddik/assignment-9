@@ -7,20 +7,20 @@
         "remote":"",
         "location":"Gulshan, Dhaka-1212, Bangladesh",
         "office":["fulltime:10am-5pm","partime:2pm-5pm"],
-        "salary":"50000tk",
-        "job_description":"Google is seeking a talented and experienced Software Engineer to join our team. In this role, you will be responsible for designing, developing, and maintaining software applications and systems for a variety of projects. You will collaborate with other engineers, product managers, and designers to create high-quality software solutions that meet the needs of our users.",
+        "salary":"100k-190k",
+        "job_description":"Google is seeking a talented and experienced Software Engineer to join our team. In this role, you will be responsible for designing, developing, and maintaining software applications and systems for a variety of projects. You will  solutions that meet the needs of our users.",
         "Job_Responsibility":[
         "Design, develop, and maintain software applications and systems",
         "Collaborate with other engineers, product managers, and designers to create high-quality software solutions",
         "Write clean, efficient, and maintainable code",
         "Conduct code reviews and provide feedback to other engineers",
-        "Participate in all aspects of the software development lifecycle, including requirements gathering, design, implementation, testing, and deployment",
         "Stay up-to-date with new technologies and best practices in software engineering",
         "Debug and troubleshoot software issues"
           ],
         "Educational_Requirements":"Bachelor's degree in Computer Science or related field",
         "Experiences":"2-3Years in this field",
-        "Contact_information":["0187983955","google@gmail.com"]
+        "Contact_email":"google@gmail.com",
+        "contact_phone":"8777625133"
 
     },
     {
@@ -32,18 +32,17 @@
         "location":"Gulshan, Dhaka-1212, Bangladesh",
         "office":["fulltime:10am-5pm","partime:2pm-5pm"],
         "salary":"100k-150k",
-        "job_description":"Netflix is seeking a talented and experienced Software Engineer to join our team. In this role, you will be responsible for designing, developing, and maintaining software applications and systems that power our world-class streaming service. You will work closely with other engineers, product managers, and designers to build scalable, reliable, and high-performance software solutions that enable us to deliver the best possible experience to our members.",
+        "job_description":"Netflix is seeking a talented and experienced Software Engineer to join our team. In this role, you will be responsible for designing, developing, and maintaining software applications and systems that power our world-class streaming service. You will work closely with other engineers, product managers, and designers .",
         "Job_Responsibility":["Design, develop, and maintain software applications and systems that power the Netflix streaming service",
         "Collaborate with other engineers, product managers, and designers to build scalable, reliable, and high-performance software solutions",
         "Write clean, efficient, and maintainable code",
         "Conduct code reviews and provide feedback to other engineers",
-        "Participate in all aspects of the software development lifecycle, including requirements gathering, design, implementation, testing, and deployment",
-        "Stay up-to-date with new technologies and best practices in software engineering",
-         "Debug and troubleshoot software issues"],
+        "Participate in all aspects of the software development lifecycle, including requirements gathering, "
+    ],
         "Educational_Requirements":"Bachelor's degree in Computer Science or related field",
         "Experiences":"3+ years of experience in software engineering",
-        "Contact_information":["01879839555", "netliflix@yhoo.com"]
-
+        "Contact_email":"info@gmail.com",
+        "contact_phone":"8777625133"
     },
     {
         "id":3,
@@ -53,21 +52,20 @@
         "remote":"",
         "location":"Gulshan, Dhaka-1212, Bangladesh",
         "office":["fulltime:10am-5pm","partime:2pm-5pm"],
-        "salary":"100k-150k",
-        "job_description": "Tesla is seeking a highly motivated and experienced Software Engineer to join our team. In this role, you will design and develop software solutions that power our innovative electric vehicles, energy products, and autonomous driving systems. You will work closely with cross-functional teams, including hardware engineers, designers, and product managers, to create world-class software solutions that drive the future of transportation.",
+        "salary":"150k-200k",
+        "job_description": "Tesla is seeking a highly motivated and experienced Software Engineer to join our team. In this role, you will design and develop software solutions that power our innovative electric vehicles, energy products, and autonomous driving systems. You will work closely with cross-functional teams, including hardware .",
         "Job_Responsibility": [
 "Design and develop software solutions for Tesla's electric vehicles, energy products, and autonomous driving systems",
 "Collaborate with cross-functional teams, including hardware engineers, designers, and product managers, to create world-class software solutions",
 "Write clean, efficient, and maintainable code",
 "Conduct code reviews and provide feedback to other engineers",
-"Participate in all aspects of the software development lifecycle, including requirements gathering, design, implementation, testing, and deployment",
-"Stay up-to-date with new technologies and best practices in software engineering",
-"Debug and troubleshoot software issues"
+"Participate in all aspects of the software development lifecycle, including requirements gathering, design, implementation, testing, and deployment"
+
 ],
         "Educational_Requirements":"Bachelor's degree in Computer Science or related field",
         "Experiences":"3+ years of experience in software engineering",
-        "Contact_information":["01879839555", "tesla@gmail.com"]
-
+       "Contact_email":"info@gmail.com",
+       "contact_phone":"8777625133"
     },
     {
         "id":4,
@@ -78,20 +76,18 @@
         "location":"Gulshan, Dhaka-1212, Bangladesh",
         "office":"10am-5pm (fulltime)",
         "salary":"100k-150k",
-        "job_description":"Google is seeking a talented and experienced Software Engineer to join our team. In this role, you will be responsible for designing, developing, and maintaining software applications and systems for a variety of projects. You will collaborate with other engineers, product managers, and designers to create high-quality software solutions that meet the needs of our users.",
+        "job_description":"Google is seeking a talented and experienced Software Engineer to join our team. In this role, you will be responsible for designing, developing, and . You will collaborate with other engineers, product managers, and designers to create high-quality software solutions that meet the needs of our users.",
         "Job_Responsibility": [
         "Design, develop and maintain software applications and systems",
         "Collaborate with other engineers. product managers and designers to create high-quality software solutions",
         "Write clean, efficient, and maintainable code",
-        "Conduct code reviews and provide feedback to other engineers",
-        "Participate in all aspects of the software development lifecycle, including requirements gathering", "design, implementation, testing, and deployment",
         "Stay up-to-date with new technologies and best practices in software engineering",
         "Debug and troubleshoot software issues"
           ],
         "Educational_Requirements":"Bachelor's degree in Computer Science or related field",
         "Experiences":"2-3Years in this field",
-        "Contact_information":["0187983955","google@gmail.com"]
-
+        "Contact_email":"google@gmail.com",
+        "contact_phone":"8777625133"
     },
     {
         "id":5,
@@ -106,8 +102,7 @@
         "Job_Responsibility":"",
         "Educational_Requirements":"",
         "Experiences":"",
-        "Contact_information":"01879839555, openai@gmail.com"
-
+       "Contact_email":"google@gmail.com"
     },
     {
         "id":6,
@@ -122,7 +117,7 @@
         "Job_Responsibility":"",
         "Educational_Requirements":"",
         "Experiences":"",
-        "Contact_information":"01879839555, facebook@gmail.com"
+        "Contact_email":"facebook@gmail.com"
 
     }
 ]
