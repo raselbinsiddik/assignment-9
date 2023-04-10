@@ -1,13 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import Job from '../Job/Job';
+import { useLoaderData } from 'react-router-dom';
 
 const Jobs = () => {
-    const [jobs, setJobs] = useState([]);
-    useEffect(() => {
-        fetch('./jobsData.json')
-            .then(res => res.json())
-            .then(data => setJobs(data));
-    },[])
+    // const [jobs, setJobs] = useState([]);
+    // useEffect(() => {
+    //     fetch('./jobsData.json')
+    //         .then(res => res.json())
+    //         .then(data => setJobs(data));
+    // },[])
+
+    const jobs = useLoaderData()
     return (
         <div className=''>
             <h1 className='font-bold text-5xl text-center m-5 mt-10'>Featured Jobs</h1>

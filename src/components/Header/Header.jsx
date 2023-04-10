@@ -18,7 +18,7 @@ const Header = () => {
                 
                         <ul className='flex items-center text-blue-500 a'>
                             <NavLink
-                                to='/home'
+                                to='/'
                                 className={({ isActive }) => (isActive ? 'active' : 'default')}
                             >
                                 Applayed Jobs
