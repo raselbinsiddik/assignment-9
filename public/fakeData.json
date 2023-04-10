@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "logo":"https://img.icons8.com/external-itim2101-blue-itim2101/256/external-calculator-calculate-itim2101-blue-itim2101-3.png",
+        "title":"Account and Finance",
+        "jobs":"300, Jobs Available"
+    },
+    {
+        "id":2,
+        "logo":"https://img.icons8.com/ios/1x/light-on.png",
+        "title":"Craetive and Design",
+        "jobs":"100+, Jobs Available"
+    },
+    {
+        "id":3,
+        "logo":"https://img.icons8.com/external-obvious-glyph-kerismaker/1x/external-internet-marketing-internet-marketing-glyph-obvious-glyph-kerismaker-4.png",
+        "title":"Marketing And Sales",
+        "jobs":"150, Jobs Available"
+    },
+    {
+        "id":4,
+        "logo":"https://img.icons8.com/dotty/1x/engineering.png",
+        "title":"Engineering Job",
+        "jobs":"200, Jobs Available"
+    }
+]

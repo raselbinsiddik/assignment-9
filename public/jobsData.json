@@ -1,0 +1,98 @@
+[
+    {
+        "id":1,
+        "logo":"https://upload.wikimedia.org/wikipedia/commons/5/51/Google.png",
+        "company-name":"Google LLC",
+        "job-title":"Technical Database Engineer",
+        "remote":"",
+        "location":"Gulshan, Dhaka-1212, Bangladesh",
+        "office":"10am-5pm (fulltime)",
+        "salary":"50000tk",
+        "job-description":"",
+        "Job Responsibility":"",
+        "Educational Requirements":"",
+        "Experiences":"",
+        "Contact_information":"01879839555, google@gmail.com"
+
+    },
+    {
+        "id":2,
+        "logo":"https://www.movingbrands.com/cache/public/project-images-1575892209-1a82f4ff69336e2a7eec7df8f5f950bc-CROP-1200x630.png",
+        "company-name":"Netliflix",
+        "job-title":"Senior Product designer",
+        "remote":"",
+        "location":"Gulshan, Dhaka-1212, Bangladesh",
+        "office":"10am-5pm (fulltime)",
+        "salary":"100k-150k",
+        "job-description":"",
+        "Job Responsibility":"",
+        "Educational Requirements":"",
+        "Experiences":"",
+        "Contact_information":"01879839555, neliflix@gmail.com"
+
+    },
+    {
+        "id":3,
+        "logo":"https://logowik.com/content/uploads/images/tesla.jpg",
+        "company-name":"Tesla",
+        "job-title":"Softowre Engineer",
+        "remote":"",
+        "location":"Gulshan, Dhaka-1212, Bangladesh",
+        "office":"10am-5pm (fulltime)",
+        "salary":"100k-150k",
+        "job-description":"",
+        "Job Responsibility":"",
+        "Educational Requirements":"",
+        "Experiences":"",
+        "Contact_information":"01879839555, tesla@gmail.com"
+
+    },
+    {
+        "id":4,
+        "logo":"https://upload.wikimedia.org/wikipedia/commons/5/51/Google.png",
+        "company-name":"Google LLC",
+        "job-title":"Technical Database Engineer",
+        "remote":"",
+        "location":"Gulshan, Dhaka-1212, Bangladesh",
+        "office":"10am-5pm (fulltime)",
+        "salary":"100k-150k",
+        "job-description":"",
+        "Job Responsibility":"",
+        "Educational Requirements":"",
+        "Experiences":"",
+        "Contact_information":"01879839555, google@gmail.com"
+
+    },
+    {
+        "id":5,
+        "logo":"https://logowik.com/content/uploads/images/openai5002.jpg",
+        "company-name":"OpenAI",
+        "job-title":"Technical Database Engineer",
+        "remote":"",
+        "location":"Gulshan, Dhaka-1212, Bangladesh",
+        "office":"10am-5pm (fulltime)",
+        "salary":"100k-150k",
+        "job-description":"",
+        "Job Responsibility":"",
+        "Educational Requirements":"",
+        "Experiences":"",
+        "Contact_information":"01879839555, openai@gmail.com"
+
+    },
+    {
+        "id":6,
+        "logo":"https://hindubabynames.info/downloads/wp-content/themes/hbn_download/download/social-media/facebook-logo.png",
+        "company-name":"Fecebook",
+        "job-title":"Technical Database Engineer",
+        "remote":"",
+        "location":"Gulshan, Dhaka-1212, Bangladesh",
+        "office":"10am-5pm (fulltime)",
+        "salary":"50000tk",
+        "job-description":"",
+        "Job Responsibility":"",
+        "Educational Requirements":"",
+        "Experiences":"",
+        "Contact_information":"01879839555, facebook@gmail.com"
+
+    }
+]
