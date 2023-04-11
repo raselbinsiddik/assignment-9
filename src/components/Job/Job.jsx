@@ -22,9 +22,10 @@ const Job = ({ job }) => {
                     <span className='flex ms-4'><CurrencyDollarIcon className='h-6 w-6 text-blue-300' />Salary:{salary}</span>
                </div>
             </div>
+           
             <Link to={`/details/${id}`}>
-                <button className='bg-indigo-600 text-white p-5 rounded-lg mt-5 font-bold text-xl'>View Details</button>
-            </Link>
+                <button className='bg-indigo-600 text-white p-5 rounded-lg mt-5 font-bold text-xl'>View Details</button></Link>
+            
             
         </div>
     );
