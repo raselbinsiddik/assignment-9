@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams} from 'react-router-dom';
 import { CalculatorIcon, CurrencyDollarIcon,   InboxStackIcon, MapPinIcon, PhoneIcon, } from '@heroicons/react/24/solid';
+import { addToDb} from '../../utilities/localdb';
 
 
 const Details = () => {
@@ -9,12 +10,39 @@ const Details = () => {
    
 
     const [jobDetails, setJobDetails] = useState({})
+    const [job, setJob] = useState({})
 
     useEffect(() => {
         const findJob = details.find(d => d.id == dId)
         setJobDetails(findJob)
     }, [])
-    console.log(jobDetails);
+
+    // useEffect(() => {
+    //     const storedCart = getShoppingCart();
+
+    //     const saveCart = [];
+    //     for (const id in storedCart) {
+    //         const addedProduct = products.find(product => product.id === id);
+
+    //         if (addedProduct) {
+    //             const quantity = storedCart[id];
+    //             addedProduct.quantity = quantity;
+
+    //             saveCart.push(addedProduct);
+
+
+    //         }
+    //     }
+    //     setCart(saveCart);
+
+    // }, [products])
+
+    const handleAddToJob = findJob => {
+        const newJob = [job, findJob]
+        setJob(newJob)
+        addToDb(jobDetails.id)
+      }
+    
     const { Contact_email,contact_phone, Educational_Requirements, Experiences, Job_Responsibility, job_description, job_title, salary, location } = jobDetails;
     return (
         <div className='grid grid-cols-1 md:grid-cols-2 m-16 text-xl'>
@@ -39,7 +67,7 @@ const Details = () => {
                     <p className='flex mt-3 mb-8'><MapPinIcon className='h-6 w-6 text-blue-300' /><span className='font-bold'>Address: </span>{location }</p>
                     
                 </div>
-                <button className='bg-indigo-500 text-2xl text-white p-4  w-full rounded-lg  font-bold'>Apply Now</button>
+                <button onClick={()=>handleAddToJob(jobDetails)} className='bg-indigo-500 text-2xl text-white p-4  w-full rounded-lg  font-bold'>Apply Now</button>
             </div>
         </div>
     );
