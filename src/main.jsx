@@ -8,6 +8,9 @@ import {
 import './index.css'
 import Jobs from './components/Jobs/Jobs';
 import Details from './components/Details/Details';
+import Applied from './components/Applied/Applied';
+import Statics from './components/Statics/Statics';
+import cartjobLoader from './jobData/jobLoaderData';
 
 
 
@@ -25,6 +28,15 @@ const router = createBrowserRouter([
         path: 'details/:dId',
         element: <Details></Details>,
         loader: ({ params }) => fetch('/jobsData.json')
+      },
+      {
+        path: 'applied',
+        element: <Applied></Applied>,
+        loader: cartjobLoader
+      },
+      {
+        path: 'statics',
+        element:<Statics></Statics>
       }
     ]
   }

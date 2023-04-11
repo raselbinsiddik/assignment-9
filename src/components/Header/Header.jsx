@@ -9,7 +9,7 @@ import './Header.css'
 const Header = () => {
 
             return (
-            <div className='bg-gray-100 ms-3 mr-3 p-5'>
+            <div className='bg-gray-100  p-5'>
                 <div className='flex items-center justify-between'>
                    
                         <span className='ml-2  font-bold text-2xl tracking-wide text-gray-800'>
@@ -18,13 +18,13 @@ const Header = () => {
                 
                         <ul className='flex items-center text-blue-500 a'>
                             <NavLink
-                                to='/'
+                                to='/applied'
                                 className={({ isActive }) => (isActive ? 'active' : 'default')}
                             >
                                 Applayed Jobs
                             </NavLink>
                             <NavLink
-                                to='/schools'
+                                to='/statics'
                                     className={({ isActive }) => (isActive ? 'active ' : 'default')}
                             >
                                  Statics
@@ -37,9 +37,9 @@ const Header = () => {
                                 Blog
                             </NavLink>
                         </ul>
-                        <div className='bg-red-400 p-3 rounded-md font-bold'>
+                        <NavLink to="/"> <div className='bg-red-400 p-3 rounded-md font-bold'>
                             <button >Start Applaying</button>
-                        </div>
+                        </div></NavLink>
                     
                 </div>
             </div>

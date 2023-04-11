@@ -22,7 +22,7 @@ const Jobs = () => {
             <p className='text-center '>Explore thousands of job oppurtunity with all the information you need. Its your future</p>
             <div className='grid grid-cols-1 md:grid-cols-2 m-5'>
                 {
-                    jobs.map(job => <Job
+                    jobs.slice(0,4).map(job => <Job
                         key={job.id}
                         job={job}></Job>)
                 

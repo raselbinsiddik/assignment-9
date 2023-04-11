@@ -9,7 +9,6 @@ const App = () => {
   return (
     <div>
       <Header></Header>
-    
       <Outlet></Outlet>
     </div>
   );
