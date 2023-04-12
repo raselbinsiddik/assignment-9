@@ -13,9 +13,9 @@ const View = () => {
      const [job, setJob] = useState({})
 
     useEffect(() => {
-        const findJob = view.find(d => d.id !== aId)
+        const findJob = view.find(d => d.id == aId)
         setViewDetails(findJob)
-        console.log(findJob);
+       
     }, [])
     const handleAddToJob = findJob => {
         const newJob = [job, findJob]

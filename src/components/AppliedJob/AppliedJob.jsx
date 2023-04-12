@@ -3,7 +3,7 @@ import {id, CurrencyDollarIcon, MapPinIcon } from '@heroicons/react/24/solid';
 import { Link } from 'react-router-dom';
 
 const AppliedJob = ({ jb }) => {
-    const { logo, job_title, location, salary, company_name } = jb;
+    const {id, logo, job_title, location, salary, company_name } = jb;
     return (
         <div>
            
