@@ -11,6 +11,8 @@ import Details from './components/Details/Details';
 import Applied from './components/Applied/Applied';
 import Statics from './components/Statics/Statics';
 import cartjobLoader from './jobData/jobLoaderData';
+import View from './components/View/View';
+import Blog from './components/Blog/Blog';
 
 
 
@@ -29,14 +31,24 @@ const router = createBrowserRouter([
         element: <Details></Details>,
         loader: ({ params }) => fetch('/jobsData.json')
       },
+     
       {
         path: 'applied',
         element: <Applied></Applied>,
         loader: cartjobLoader
       },
       {
+        path: 'view/:aId',
+        element: <View></View>,
+        loader: ({ params }) => fetch('/jobsData.json')
+      },
+      {
         path: 'statics',
         element:<Statics></Statics>
+      },
+      {
+        path: 'blog',
+        element:<Blog></Blog>
       }
     ]
   }

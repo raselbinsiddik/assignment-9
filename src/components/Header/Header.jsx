@@ -31,7 +31,7 @@ const Header = () => {
                             </NavLink>
                         
                             <NavLink
-                                to='/about'
+                                to='/blog'
                                 className={({ isActive }) => (isActive ? 'active' : 'default')}
                             >
                                 Blog
