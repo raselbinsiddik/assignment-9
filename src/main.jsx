@@ -13,6 +13,7 @@ import Statics from './components/Statics/Statics';
 import cartjobLoader from './jobData/jobLoaderData';
 import View from './components/View/View';
 import Blog from './components/Blog/Blog';
+import Error from './components/Error/Error';
 
 
 
@@ -49,6 +50,10 @@ const router = createBrowserRouter([
       {
         path: 'blog',
         element:<Blog></Blog>
+      },
+      {
+        path: '*',
+        element: <Error></Error>
       }
     ]
   }

@@ -67,7 +67,30 @@
        "contact_email":"info@gmail.com",
        "contact_phone":"8777625133"
     },
+   
     {
+        "id":5,
+        "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
+        "company_name":"OpenAI",
+        "job_title":"Research Scientist",
+        "remote":"",
+        "location":"Gulshan, Dhaka-1212, Bangladesh",
+        "office":"10am-5pm (fulltime)",
+        "salary":"100k-150k",
+        "job_description":[
+    "Conduct research in artificial intelligence and machine learning",
+    "Develop and implement algorithms and models",
+    "Collaborate with cross-functional teams to advance research goals",
+    "Publish research findings in top-tier academic journals and conferences",
+    "Stay up-to-date with emerging trends and technologies in the field of AI"
+  ],
+        "job_responsibility":["PhD in Computer Science, Artificial Intelligence, or related field",
+    "Strong background in machine learning, deep learning"],
+        "educational_requirements": "Experience with natural language processing or computer vision",
+        "experiences":"",
+       "contact_email":"google@gmail.com"
+    },
+     {
         "id":4,
         "logo":"https://upload.wikimedia.org/wikipedia/commons/5/51/Google.png",
         "company_name":"Google LLC",
@@ -90,33 +113,29 @@
         "contact_phone":"8777625133"
     },
     {
-        "id":5,
-        "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png",
-        "company_name":"OpenAI",
-        "job_title":"Technical Database Engineer",
-        "remote":"",
-        "location":"Gulshan, Dhaka-1212, Bangladesh",
-        "office":"10am-5pm (fulltime)",
-        "salary":"100k-150k",
-        "job_description":"",
-        "job_responsibility":"",
-        "educational_requirements":"",
-        "experiences":"",
-       "contact_email":"google@gmail.com"
-    },
-    {
         "id":6,
         "logo":"https://thumbs.dreamstime.com/b/facebook-background-facebook-icon-social-media-icons-realistic-facebook-app-set-logo-vector-zaporizhzhia-ukraine-may-facebook-222305322.jpg",
         "company-name":"Fecebook",
         "job_title":"Technical Database Engineer",
-        "remote":"",
+        "remote":"home",
         "location":"Gulshan, Dhaka-1212, Bangladesh",
         "office":"10am-5pm (fulltime)",
         "salary":"50000tk",
-        "job_description":"",
-        "job_responsibility":"",
+        "job_description": [
+        "Design, develop and maintain software applications and systems",
+        "Collaborate with other engineers. product managers and designers to create high-quality software solutions",
+        "Write clean, efficient, and maintainable code",
+        "Stay up-to-date with new technologies and best practices in software engineering",
+        "Debug and troubleshoot software issues"
+          ],
+        "job_responsibility": [
+        "Design, develop and maintain software applications and systems",
+        "Collaborate with other engineers. product managers and designers to create high-quality software solutions",
+        "Write clean, efficient, and maintainable code",
+        "Debug and troubleshoot software issues"
+          ],
         "educational_requirements":"",
-        "experiences":"",
+        "experiences":"Bachelor's degree in Computer Science or related field",
         "contact_email":"facebook@gmail.com"
 
     }
