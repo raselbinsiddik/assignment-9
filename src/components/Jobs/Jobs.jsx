@@ -25,9 +25,11 @@ const Jobs = () => {
                 
              }
             </div>
-            <div onClick={handleShowAll} className='text-center'>
-                <button className='bg-indigo-600 text-white p-5 rounded-lg mt-5 font-bold text-xl'>See All Jobs</button>
-          </div>
+            {!showAll && (
+                <div onClick={handleShowAll} className='text-center'>
+                    <button className='bg-indigo-600 text-white p-5 rounded-lg mt-5 font-bold text-xl'>See All Jobs</button>
+                </div>
+            )}
             
         </div>
     );
